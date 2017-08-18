@@ -1,7 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/amans/fipple/conf/messages,/home/amans/fipple/target/scala-2.11/classes/messages)[0m
-[0m[[0mdebug[0m] [0m	(/home/amans/fipple/conf/evolutions,/home/amans/fipple/target/scala-2.11/classes/evolutions)[0m
-[0m[[0mdebug[0m] [0m	(/home/amans/fipple/conf/routes,/home/amans/fipple/target/scala-2.11/classes/routes)[0m
-[0m[[0mdebug[0m] [0m	(/home/amans/fipple/conf/application.conf,/home/amans/fipple/target/scala-2.11/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/home/amans/fipple/conf/logback.xml,/home/amans/fipple/target/scala-2.11/classes/logback.xml)[0m
-[0m[[0mdebug[0m] [0m	(/home/amans/fipple/conf/evolutions/default,/home/amans/fipple/target/scala-2.11/classes/evolutions/default)[0m
