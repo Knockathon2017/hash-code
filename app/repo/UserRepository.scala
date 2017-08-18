@@ -21,8 +21,9 @@ trait UserTable {
     val dashboardPassword: Rep[String] = column[String]("dashboardPassword")
     val outlookUserName: Rep[String] = column[String]("outlookUserName")
     val outlookPassword: Rep[String] = column[String]("outlookPassword")
+    val deviceToken: Rep[String] = column[String]("device_token")
 
-    def * = (id.?, jiraUserName, dashboardUserName, dashboardPassword, outlookUserName, outlookPassword) <>(User.tupled, User.unapply)
+    def * = (id.?, jiraUserName, dashboardUserName, dashboardPassword, outlookUserName, outlookPassword, deviceToken) <>(User.tupled, User.unapply)
   }
 
   val userQuery = TableQuery[UserTable]

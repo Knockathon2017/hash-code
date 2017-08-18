@@ -20,10 +20,11 @@ class UserController @Inject()(userRepository: UserRepository,jiraService: JiraS
       val dashboardPassword = (req.body \ "dashboard_password").asOpt[String].getOrElse("")
       val outlookUserName = (req.body \ "outlook_user_name").asOpt[String].getOrElse("")
       val outlookPassword = (req.body \ "outlook_password").asOpt[String].getOrElse("")
+      val deviceToken = (req.body \ "device_token").asOpt[String].getOrElse("")
 
-      userRepository.insert(User(None,jiraUserName,dashboardUserName,dashboardPassword,outlookUserName,outlookPassword)) map {
+      userRepository.insert(User(None,jiraUserName,dashboardUserName,dashboardPassword,outlookUserName,outlookPassword,deviceToken)) map {
       x=>
-        jiraService.readJiraTickets()
+        jiraService.readJiraTickets(deviceToken)
         Ok
       }
   }

@@ -8,7 +8,8 @@ case class User(
                dashboardUserName:String,
                dashboardPassword:String,
                outlookUserName:String,
-               outlookPassword:String
+               outlookPassword:String,
+               deviceToken:String
                )
 
 
