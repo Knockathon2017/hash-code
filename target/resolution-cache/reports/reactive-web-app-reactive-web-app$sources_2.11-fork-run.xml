@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="reactive-web-app"
+		module="reactive-web-app$sources_2.11"
+		revision="1.0"
+		conf="fork-run"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
+		date="20170819005404"/>
+	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-testkit_2.11">
+			<revision name="2.3.8" status="release" pubdate="20141216045238" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2914" time="0" location="/home/amans/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/ivy-2.3.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.8/akka-testkit_2.11-2.3.8.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="2.3.8" rev-constraint-default="2.3.8" rev-constraint-dynamic="2.3.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-testkit_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30664" time="0" location="/home/amans/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/srcs/akka-testkit_2.11-2.3.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-testkit_2.11/2.3.8/akka-testkit_2.11-2.3.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.3.8" status="release" pubdate="20141216045105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2666" time="0" location="/home/amans/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.3.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.8/akka-actor_2.11-2.3.8.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="2.3.8" rev-constraint-default="2.3.8" rev-constraint-dynamic="2.3.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="331881" time="0" location="/home/amans/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.3.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.8/akka-actor_2.11-2.3.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502202400" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2734" time="0" location="/home/amans/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="132611" time="0" location="/home/amans/.ivy2/cache/com.typesafe/config/srcs/config-1.2.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.2.1/config-1.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="json4s-support_2.11">
+			<revision name="0.6.0" status="release" pubdate="20140924014025" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3031" time="0" location="/home/amans/.ivy2/cache/org.spire-math/json4s-support_2.11/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/json4s-support_2.11/0.6.0/json4s-support_2.11-0.6.0.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="json4s-support_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="852" time="0" location="/home/amans/.ivy2/cache/org.spire-math/json4s-support_2.11/srcs/json4s-support_2.11-0.6.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/json4s-support_2.11/0.6.0/json4s-support_2.11-0.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="jawn-parser_2.11">
+			<revision name="0.6.0" status="release" pubdate="20140924013931" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2740" time="0" location="/home/amans/.ivy2/cache/org.spire-math/jawn-parser_2.11/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.11/0.6.0/jawn-parser_2.11-0.6.0.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jawn-parser_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17574" time="0" location="/home/amans/.ivy2/cache/org.spire-math/jawn-parser_2.11/srcs/jawn-parser_2.11-0.6.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/jawn-parser_2.11/0.6.0/jawn-parser_2.11-0.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-core_2.11">
+			<revision name="3.2.10" status="release" pubdate="20140513225653" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2938" time="0" location="/home/amans/.ivy2/cache/org.json4s/json4s-core_2.11/ivy-3.2.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.2.10/json4s-core_2.11-3.2.10.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="3.2.10" rev-constraint-default="3.2.10" rev-constraint-dynamic="3.2.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="json4s-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37884" time="0" location="/home/amans/.ivy2/cache/org.json4s/json4s-core_2.11/srcs/json4s-core_2.11-3.2.10-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/json4s/json4s-core_2.11/3.2.10/json4s-core_2.11-3.2.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.6" status="release" pubdate="20131009092654" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<metadata-artifact status="no" details="" size="4124" time="0" location="/home/amans/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26517" time="0" location="/home/amans/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-ast_2.11">
+			<revision name="3.2.10" status="release" pubdate="20140513225611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2516" time="0" location="/home/amans/.ivy2/cache/org.json4s/json4s-ast_2.11/ivy-3.2.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.2.10/json4s-ast_2.11-3.2.10.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="3.2.10" rev-constraint-default="3.2.10" rev-constraint-dynamic="3.2.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="json4s-ast_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7252" time="0" location="/home/amans/.ivy2/cache/org.json4s/json4s-ast_2.11/srcs/json4s-ast_2.11-3.2.10-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/json4s/json4s-ast_2.11/3.2.10/json4s-ast_2.11-3.2.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-pickling_2.11">
+			<revision name="0.10.0" status="release" pubdate="20150207012721" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scala/pickling" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html "/>
+				<metadata-artifact status="no" details="" size="3267" time="0" location="/home/amans/.ivy2/cache/org.scala-lang.modules/scala-pickling_2.11/ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-pickling_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="70275" time="0" location="/home/amans/.ivy2/cache/org.scala-lang.modules/scala-pickling_2.11/srcs/scala-pickling_2.11-0.10.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="fork-run_2.11">
+			<revision name="2.5.4" status="release" pubdate="20160610085136" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/fork-run_2.11/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/fork-run_2.11/2.5.4/fork-run_2.11-2.5.4.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="fork-run_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6028" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/fork-run_2.11/srcs/fork-run_2.11-2.5.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/fork-run_2.11/2.5.4/fork-run_2.11-2.5.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="fork-run-protocol_2.11">
+			<revision name="2.5.4" status="release" pubdate="20160610085018" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3340" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/fork-run-protocol_2.11/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/fork-run-protocol_2.11/2.5.4/fork-run-protocol_2.11-2.5.4.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="fork-run-protocol_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3442" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/fork-run-protocol_2.11/srcs/fork-run-protocol_2.11-2.5.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/fork-run-protocol_2.11/2.5.4/fork-run-protocol_2.11-2.5.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="run-support_2.11">
+			<revision name="2.5.4" status="release" pubdate="20160610085007" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3468" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/run-support_2.11/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/run-support_2.11/2.5.4/run-support_2.11-2.5.4.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="run-support_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16408" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/run-support_2.11/srcs/run-support_2.11-2.5.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/run-support_2.11/2.5.4/run-support_2.11-2.5.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="twirl-compiler_2.11">
+			<revision name="1.1.1" status="release" pubdate="20150514103027" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3129" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/twirl-compiler_2.11/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.11/1.1.1/twirl-compiler_2.11-1.1.1.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="twirl-compiler_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7859" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/twirl-compiler_2.11/srcs/twirl-compiler_2.11-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.11/1.1.1/twirl-compiler_2.11-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="twirl-parser_2.11">
+			<revision name="1.1.1" status="release" pubdate="20150514103042" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3313" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/twirl-parser_2.11/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.11/1.1.1/twirl-parser_2.11-1.1.1.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="twirl-parser_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11922" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/twirl-parser_2.11/srcs/twirl-parser_2.11-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.11/1.1.1/twirl-parser_2.11-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.11.6" status="release" pubdate="20150226063127" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3103" time="0" location="/home/amans/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.11.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2146491" time="0" location="/home/amans/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.11.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.3" status="release" pubdate="20141215055104" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2803" time="0" location="/home/amans/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42156" time="0" location="/home/amans/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.3" status="release" pubdate="20141205014814" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2987" time="0" location="/home/amans/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109174" time="0" location="/home/amans/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.6" status="release" pubdate="20150226063100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/home/amans/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.6/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="561028" time="0" location="/home/amans/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150803213311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/amans/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/home/amans/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="/home/amans/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="build-link">
+			<revision name="2.5.4" status="release" pubdate="20160610084831" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2647" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/build-link/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.5.4/build-link-2.5.4.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="build-link" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4397" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/build-link/srcs/build-link-2.5.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.5.4/build-link-2.5.4-sources.jar"/>
+					</artifact>
+					<artifact name="build-link" type="jar" ext="jar" status="no" details="" size="3360" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.5.4/build-link-2.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-exceptions">
+			<revision name="2.5.4" status="release" pubdate="20160610084837" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2478" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/play-exceptions/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.5.4/play-exceptions-2.5.4.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-exceptions" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2292" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/play-exceptions/srcs/play-exceptions-2.5.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.5.4/play-exceptions-2.5.4-sources.jar"/>
+					</artifact>
+					<artifact name="play-exceptions" type="jar" ext="jar" status="no" details="" size="4605" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.5.4/play-exceptions-2.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="twirl-api_2.11">
+			<revision name="1.1.1" status="release" pubdate="20150514103045" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3288" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/twirl-api_2.11/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.1.1/twirl-api_2.11-1.1.1.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="twirl-api_2.11" type="jar" ext="jar" status="no" details="" size="60413" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.1.1/twirl-api_2.11-1.1.1.jar"/>
+					</artifact>
+					<artifact name="twirl-api_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6270" time="0" location="/home/amans/.ivy2/cache/com.typesafe.play/twirl-api_2.11/srcs/twirl-api_2.11-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/twirl-api_2.11/1.1.1/twirl-api_2.11-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.4" status="release" pubdate="20150403180100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="11421" time="0" location="/home/amans/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom"/>
+				<caller organisation="reactive-web-app" name="reactive-web-app$sources_2.11" conf="fork-run" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="487156" time="0" location="/home/amans/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="434678" time="0" location="/home/amans/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
