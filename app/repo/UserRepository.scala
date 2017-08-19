@@ -22,11 +22,13 @@ trait UserTable {
     val outlookUserName: Rep[String] = column[String]("outlookUserName")
     val outlookPassword: Rep[String] = column[String]("outlookPassword")
     val deviceToken: Rep[String] = column[String]("device_token")
+    val accessToken: Rep[String] = column[String]("access_token")
 
-    def * = (id.?, jiraUserName, dashboardUserName, dashboardPassword, outlookUserName, outlookPassword, deviceToken) <>(User.tupled, User.unapply)
+    def * = (id.?, jiraUserName, dashboardUserName, dashboardPassword, outlookUserName, outlookPassword, deviceToken, accessToken) <>(User.tupled, User.unapply)
   }
 
   val userQuery = TableQuery[UserTable]
+
 
 }
 
@@ -35,10 +37,23 @@ class UserRepository @Inject()(protected val dbConfigProvider: DatabaseConfigPro
 
   import driver.api._
 
+  val autoInc = userQuery returning userQuery.map(_.id)
+
   def insert(user: User) = {
-    db.run(userQuery += user)
+    db.run(autoInc += user)
   }
 
+  def update(email: String, accessToken: String) = {
+    val q = for {
+      u <- userQuery.filter(_.outlookUserName === email)
+    } yield u.accessToken
+
+    db.run(q.update(accessToken))
+  }
+
+  def getUser(email: String) = db.run(userQuery.filter(_.outlookUserName === email).result.headOption)
+
+  def getLatestUser = db.run(userQuery.sortBy(_.id).sorted(_.id.desc).result.headOption)
 
 }
 
